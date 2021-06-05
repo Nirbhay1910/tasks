@@ -1,0 +1,56 @@
+.navbarComp {
+  font-family: sans-serif;
+  display: flex;
+  min-width: 50px;
+  padding: 10px;
+  background-color: #333;
+  color: #eee;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__title {
+  padding: 5px;
+  margin-left: 10px;
+  font-family: cursive;
+  color: orange;
+  font-size: larger;
+}
+.nav__title:hover {
+  cursor: pointer;
+}
+.nav__options {
+  display: flex;
+}
+
+.nav__option {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.nav__option:first-child {
+  margin-right: 30px;
+}
+
+.nav__option:hover {
+  color: orange;
+  cursor: pointer;
+}
+.taskContainer__box > input {
+  outline: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: larger;
+  background-color: #efe;
+}
+.taskContainer__box > button {
+  padding: 5px;
+  margin: 1px;
+  min-width: 35px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  background-color: #efe;
+}
+.taskContainer__box > button:hover {
+  background-color: #999;
+}
